@@ -1,4 +1,4 @@
-package com.lineate.lib.dto.response;
+package com.lineate.pojolib.dto.response;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
