@@ -1,4 +1,4 @@
-package com.lineate.lib.dto.request;
+package com.lineate.pojolib.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
