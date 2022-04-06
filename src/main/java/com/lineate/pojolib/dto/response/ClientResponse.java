@@ -21,6 +21,12 @@ public class ClientResponse {
     @Schema(name = "lastName", description = "Client lastName", required = true, example = "Doe")
     private String lastName;
 
-    @Schema(name = "login", description = "Client login", required = true, example = "User's E-mail recommended")
+    @Schema(name = "login", description = "Client login", required = true, example = "Client's E-mail recommended")
     private String login;
+
+    @Schema(name = "role", description = "Client role", required = true, example = "USER")
+    private String role;
+
+    @Schema(name = "status", description = "Client status", required = true, example = "ACTIVE")
+    private String status;
 }
