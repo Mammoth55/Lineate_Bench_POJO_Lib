@@ -13,7 +13,8 @@ import lombok.NoArgsConstructor;
 @Schema(name = "VoteDtoResponse", description = "Vote Info")
 public class VoteResponse {
 
-    private Long id;
+    @Schema(name = "id", description = "Vote id", required = true, example = "1234")
+    private long id;
 
     @Schema(name = "voteStatus", description = "Vote Status", required = true, example = "WANT_LOOK")
     private String voteStatus;

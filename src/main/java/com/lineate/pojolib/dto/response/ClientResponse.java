@@ -13,7 +13,8 @@ import lombok.NoArgsConstructor;
 @Schema(name = "ClientDtoResponse", description = "Client Info")
 public class ClientResponse {
 
-    long id;
+    @Schema(name = "id", description = "Client id", required = true, example = "1234")
+    private long id;
 
     @Schema(name = "firstName", description = "Client firstName", required = true, example = "John")
     private String firstName;
